@@ -1,9 +1,94 @@
 *{
   font-family: "Glegoo", serif;
 }
+ 
+
+/* NAVBAR CSS START*/
 .navbar-color{
   background-color: #1f2354;
 }
+
+  .topbar{
+    background-color:orange;
+  }
+  .navbar-nav .nav-link, .nav-link.active, .navbar-nav .dropdown-menu  {
+    
+              color: white;
+              transition: color 0.3s;
+              font-size: 20px;
+          }
+  
+  .navbar-nav {
+    margin: auto;
+    text-align: center;
+  }
+  .navbar-nav .nav-link:hover,
+          .navbar-nav .dropdown-menu:hover{
+    color: #fa8428;
+  }        
+  .navbar-nav .nav-item {
+    margin-right: 30px;
+  }
+  
+  
+  .call-now-button {
+    height: 50px;
+    width: 170px;
+    background-color: transparent;
+    border: 1px solid orange;
+    color: orange;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+    cursor: pointer;
+   list-style-type: none;
+  }
+  
+  .call-now-button:hover {
+    background-color: orange;
+    color: white;
+  }
+
+  .call-now{
+    list-style-type: none;
+   margin-left: 60px;
+   
+  }
+ 
+
+  .head-t{
+    background-color: white;
+  }
+
+  @media only screen and (max-width: 767px) {
+    .call-now .navbar-nav .call-now-button  {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+  }
+
+  .float-btn {
+    position: fixed;
+    display: none;
+    right: 45px;
+    bottom: 45px;
+    z-index: 99;
+  }
+
+/* NAVBAR CSS END */
+
+/* BIRTHDAY DECOR CSS */
+.abtext
+    {
+         background-repeat: no-repeat;
+        background-attachment: fixed; 
+        background-size: cover; 
+        box-shadow: 1px 2px 8px 6px #f3943124; 
+        overflow: hidden; 
+        padding:30px
+    }
+
 .card {
   width: 300px;
   height: 400px;
@@ -66,73 +151,12 @@
 .page-header-inner {
   background: rgba(0, 0, 0, .7);
 }
+
 .gap-4 {
 margin-top: 50px; /* Add a 30px gap between rows */
 }
-  color: white;
 
-}
-.topbar{
-  background-color:orange;
-  height: 70px;
-  margin-top: -10px;
-  margin-bottom: -10px;
-}
-.navbar-nav .nav-link, .nav-link.active, .navbar-nav .dropdown-menu  {
-  
-            color: white;
-            transition: color 0.3s;
-            font-size: 20px;
-        }
-
-.navbar-nav {
-  margin: auto;
-  text-align: center;
-}
-.navbar-nav .nav-link:hover,
-        .navbar-nav .dropdown-menu:hover{
-  color: #fa8428;
-}        
-.navbar-nav .nav-item {
-  margin-right: 30px;
-}
+/* BIRTHDAY DECOR CSS END */
 
 
-.call-now-button {
-  height: 50px;
-  width: 170px;
-  background-color: transparent;
-  border: 1px solid orange;
-  color: orange;
-  padding: 8px 16px;
-  border-radius: 5px;
-  transition: background-color 0.3s, color 0.3s;
-  cursor: pointer;
- list-style-type: none;
-}
-
-.call-now-button:hover {
-  background-color: orange;
-  color: white;
-}
-.call-now{
-  list-style-type: none;
-}
-@media only screen and (max-width: 767px) {
-  .call-now .navbar-nav .call-now-button  {
-      margin-left: auto;
-      margin-right: auto;
-      display: block;
-  }
-}
-
-
-
-.float-btn {
-  position: fixed;
-  display: none;
-  right: 45px;
-  bottom: 45px;
-  z-index: 99;
-}
 

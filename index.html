@@ -29,71 +29,38 @@
 
 <body>
   <div class="container-fluid topbar">
-    <div class="row gx-0 d-lg-flex">
-      <div class="col-lg-7 text-start">
-        <div class="h-100 d-inline-flex d-sm-none align-items-center">
-          <a class="btn btn-sm-square bg-white text-primary me-1"
-            href="https://api.whatsapp.com/send/?phone=+916377433416&amp;text=Hi,&amp;type=phone_number&amp;app_absent=0"><i
-              class="fab fa-whatsapp"></i></a>
-          <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
-          <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i class="fab fa-instagram"></i></a>
+    <div class="row gx-0 d-lg-flex pt-2">
+        <!-- Icons visible on large screens -->
+        <div class="col-lg-7 text-start d-none d-sm-flex align-items-center">
+            <a class="btn btn-sm-square bg-white text-primary me-1" href="https://api.whatsapp.com/send/?phone=+916377433416&amp;text=Hi,&amp;type=phone_number&amp;app_absent=0"><i class="fab fa-whatsapp"></i></a>
+            <a class="btn btn-sm-square bg-white text-primary me-1" href=""><i class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-sm-square bg-white text-primary me-0" href=""><i class="fab fa-instagram"></i></a>
         </div>
-      </div>
-      <div class="col-lg-5 px-5 text-end topbar" style="font-size: 10px;">
-        <div class="h-100 d-inline-flex align-items-center py-3 me-4">
-          <a class="btn btn-sm-square bg-white text-primary me-1" href="tel:+918504962589"><i class="fa fa-phone-alt"
-              style="height: 10px; width: 10px;"></i></a>
-          <a href="tel:+918504962589" style="color: #ffffff;">+91 8504962589</a>
-
+        <!-- Contact numbers visible on large screens -->
+        <div class="col-lg-5 px-5 text-end topbar d-none d-sm-flex" style="font-size: 15px;">
+            <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                <a class="btn btn-sm-square bg-white text-primary me-1" href="tel:+918504962589"><i class="fa fa-phone-alt" style="height: 10px; width: 10px;"></i></a>
+                <a href="tel:+918504962589" style="color: #ffffff;">+91 8504962589</a>
+            </div>
+            <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                <a class="btn btn-sm-square bg-white text-primary me-1" href="https://api.whatsapp.com/send/?phone=+916377433416&amp;text=Hi,&amp;type=phone_number&amp;app_absent=0"><i class="fab fa-whatsapp" style="height: 10px; width: 10px;"></i></a>
+                <a href="tel:+918504962589" style="color: #ffffff;">+91 8504962589</a>
+            </div>
         </div>
-        <div class="h-100 d-inline-flex align-items-center py-3 me-4">
-          <a class="btn btn-sm-square bg-white text-primary me-1"
-            href="https://api.whatsapp.com/send/?phone=+916377433416&amp;text=Hi,&amp;type=phone_number&amp;app_absent=0"><i
-              class="fab fa-whatsapp" style="height: 10px; width: 10px;"></i></a>
-          <a href="tel:+918504962589" style="color: #ffffff;">+91 8504962589</a>
+        <!-- Icons and numbers visible on small screens -->
+        <div class="col-12 d-sm-none">
+            <div class="h-100 d-inline-flex align-items-center">
+                <a class="btn btn-sm-square bg-white text-primary me-1" href="tel:+918504962589"><i class="fa fa-phone-alt" style="height: 10px; width: 10px;"></i></a>
+                <a href="tel:+918504962589" style="color: #ffffff;">+91 8504962589</a>
+            </div>
+            <div class="h-100 d-inline-flex align-items-center py-1 me-3">
+                <a class="btn btn-sm-square bg-white text-primary me-1" href="https://api.whatsapp.com/send/?phone=+916377433416&amp;text=Hi,&amp;type=phone_number&amp;app_absent=0"><i class="fab fa-whatsapp" style="height: 10px; width: 10px;"></i></a>
+                <a href="tel:+918504962589" style="color: #ffffff;">+91 8504962589</a>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
-  <nav class="navbar navbar-expand-lg navbar-color" aria-label="Eleventh navbar example">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#"><img src="images/First logo 1.png" height="100px" width="100px"
-          style="padding: none;"></a>
-      <button class="navbar-toggler head-t" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09"
-        aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+</div>
 
-      <div class="collapse navbar-collapse " id="navbarsExample09">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-center">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Decorations</a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="birthday-decor.html">Birthday Decoration</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Gallery</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
-          </li>
-        </ul>
-        <li class="nav-item call-now">
-          <button class="call-now-button">Call Now</button>
-        </li>
-      </div>
-    </div>
-  </nav>
-  </div>
 
 
   <nav class="navbar navbar-expand-lg navbar-color" aria-label="Eleventh navbar example">

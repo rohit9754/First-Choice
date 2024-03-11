@@ -10,15 +10,16 @@ include 'header.php';
     <div id="header-carousel" class="carousel slide" data-bs-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img class="w-100" src="images/inner-banner-fun-decor.jpeg" alt="Image">
+          <img class="w-100" src="/images/banner1-fun-decor.jpg" alt="Image">
         </div>
-
         <div class="carousel-item">
-          <img class="w-100" src="images/banner1-fun-decor.jpg" alt="Image">
+          <img class="w-100" src="/images/banner5.jpeg" alt="Image">
         </div>
-
         <div class="carousel-item">
           <img class="w-100" src="images/banner4-fun-decor.jpg" alt="Image">
+        </div>
+        <div class="carousel-item">
+          <img class="w-100" src="/images/banner4.jpeg" alt="Image">
         </div>
       </div>
       <button class="carousel-control-prev" type="button" data-bs-target="#header-carousel" data-bs-slide="prev">
@@ -53,7 +54,7 @@ include 'header.php';
           </div>
           <div class="col-lg-6 order-lg-2 order-1 d-flex align-items-center aos-init aos-animate" data-aos="zoom-out" data-aos-delay="200">
             <!-- Replace this with the form -->
-            <form action="https://formspree.io/f/mqkvwypy" method="POST" class="appointment-form" style="background-color: rgba(255, 255, 255, 0.8); padding: 20px; border-radius: 10px; width: 100%; ">
+            <form action="https://formspree.io/f/mwkgqbga" method="POST" class="appointment-form" style="background-color: rgba(255, 255, 255, 0.8); padding: 20px; border-radius: 10px; width: 100%; ">
               <h3>Contact Us</h3>
               <h2>BOOK NOW</h2>
               <div class="mb-3">
@@ -68,7 +69,7 @@ include 'header.php';
               <div class="mb-3">
                 <textarea class="form-control" rows="3" name="message" placeholder="Your Message" required=""></textarea>
               </div><br>
-              <button type="submit" class="btn btn-primary" style="font-weight: bold; background-color:#205c79">Submit</button>
+              <center><button type="submit" class="btn btn-primary" style="font-weight: bold; background-color:#205c79">Submit</button></center>
             </form>
           </div>
         </div>

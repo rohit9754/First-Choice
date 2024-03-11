@@ -9,7 +9,7 @@
           <span id="head-f"><i>FIRST  CHOICE  </i></span>Balloon
         </h2>
         <p>Experience the difference with
-          Tip Top Balloon. Our dedication to excellence and creativity sets us apart. With a legacy of crafting mesmerizing balloon designs that transcend ordinary decor, we bring over [insert years of experience] years of expertise to every event. Trust us to transform your celebrations into unforgettable experiences.</p>
+          First Choice Balloon Decoration. Our dedication to excellence and creativity sets us apart. With a legacy of crafting mesmerizing balloon designs that transcend ordinary decor, we bring over [insert years of experience] years of expertise to every event. Trust us to transform your celebrations into unforgettable experiences.</p>
         <div>
           <a href="#about">Discover More</a>
         </div>
